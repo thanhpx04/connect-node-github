@@ -1,0 +1,26 @@
+{
+    "key": "thanh-app-1124260722",
+    "name": "Connect Github app",
+    "description": "Demo app on issue view screen",
+    "baseUrl": "https://connect-github.azurewebsites.net",
+    "authentication": {
+        "type": "none"
+    },
+    "scopes": [
+        "READ"
+    ],
+    "apiMigrations":{
+        "signed-install": true
+    },
+    "modules": {
+        "jiraIssueFields": [
+          {
+            "type": "text",
+            "name": {
+              "value": "Connect Github"
+            },
+            "key": "thanh-github-web-panel"
+          }
+        ]
+    }
+}
